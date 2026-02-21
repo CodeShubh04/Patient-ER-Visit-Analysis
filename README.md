@@ -5,44 +5,32 @@
 
 ## Project Overview
 
-This project addresses a critical operational question: How can hospital administrators optimize emergency room (ER) operations to enhance patient care and resource utilization? By analyzing a dataset of over 9,200 ER visits, we aim to uncover actionable insights that can inform staffing decisions, reduce wait times, and improve patient satisfaction.
+This project addresses a critical operational question: how can hospital administrators optimize ER operations to enhance patient care and resource utilization? Using a dataset of 9,216 ER visits across 2019–2020, this Power BI dashboard uncovers actionable insights to inform staffing decisions, reduce wait times, and improve patient satisfaction.
 
-## Key Business Metrics Analyzed
+**Tools Used:** Power BI · DAX · Power Query · Excel
 
--> Patient Volume Trends: Monthly and seasonal variations in ER visits.
+## Key Metrics at a Glance
 
--> Wait Times: Average wait times by department and time of day.
+- Total ER Visits: 9,216 (4,338 in 2019 → 4,878 in 2020, +12.4% YoY)
+- Average Wait Time: 35 minutes
+- Average Satisfaction Score: 5 / 10
+- Service Not Rated: 75.10% of visits
+- Walk-In Patients: 58.59% vs Referred: 41.41%
+- Gender Split: Female 51.1% · Male 48.7%
+- Peak Month: July (1,024 visits) · Lowest: February (431 visits)
 
--> Patient Satisfaction: Satisfaction scores segmented by demographics and visit type.
+## Key Insights
 
--> Referral Sources: Analysis of patient referrals by department.
+- Adults dominate ER visits (7,106 of 9,216) — nearly 77% of all cases, suggesting ER resources should be primarily optimized for adult care pathways
+- 58.59% walk-in rate indicates low pre-visit triage — opportunity to implement digital pre-registration to reduce on-site wait times
+- 75.10% of visits left unrated — a significant gap in satisfaction data collection that limits quality improvement efforts
+- Weekday visits (6,600) are 2.5x higher than weekends (2,600) — staffing should be weighted toward weekday shifts, particularly mid-week
+- General Practice (1,840) and Orthopedics (995) are the top referral departments — inter-departmental coordination with these two alone covers the majority of referred cases
+- YoY growth of 12.4% signals increasing ER demand — capacity planning needed ahead of 2021
 
--> Demographic Breakdown: Insights into patient age, gender, and race distributions.
+## Recommendations
 
-## Insights Across Segments
-
--> Peak Hours: Identified periods of high patient volume, aiding in staffing optimization.
-
--> Satisfaction Variations: Highlighted areas with lower satisfaction scores, indicating potential service improvements.
-
--> Referral Patterns: Revealed trends in referral sources, informing inter-departmental coordination strategies.
-
-## Analytical Approach
-
--> Utilizing Power BI, the analysis incorporates:
-
--> DAX Calculations: For computing KPIs such as average wait times and satisfaction scores.
-
--> Data Segmentation: Breaking down data by time, department, and demographics to identify patterns.
-
--> Interactive Dashboards: Allowing stakeholders to explore data and derive insights dynamically.
-
-## Recommendations for Hospital Administrators
-
--> Staffing Adjustments: Allocate resources during identified peak hours to manage patient load effectively.
-
--> Service Enhancements: Address areas with lower satisfaction scores through targeted improvements.
-
--> Referral Optimization: Enhance inter-departmental communication to streamline patient referrals.
-
--> Demographic Considerations: Tailor services to meet the needs of predominant patient demographics.
+- Introduce digital pre-registration to reduce walk-in congestion during peak months (July–September)
+- Improve satisfaction data collection — 75% unrated visits means the hospital is flying blind on service quality
+- Allocate additional triage staff on weekdays, particularly Tuesday–Thursday based on volume patterns
+- Strengthen coordination with General Practice and Orthopedics referral pipelines to streamline patient handoffs
